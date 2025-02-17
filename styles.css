@@ -1,0 +1,97 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><style>/* Beautiful Gradient Background */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #232e45);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffcc00;
+}
+
+/* Section Titles */
+h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #ffcc00;
+}
+
+/* Card Design (Glassmorphism) */
+.card {
+    max-width: 650px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.card h5 {
+    font-size: 20px;
+    color: #ffcc00;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #ddd;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 16px;
+    color: #ddd;
+    margin-top: 5px;
+}
+
+/* Stylish Download Buttons */
+.btn-download {
+    display: block;
+    background: #ffcc00;
+    color: black;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.btn-download:hover {
+    background: #ffdd44;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    margin-top: 30px;
+}</style>
